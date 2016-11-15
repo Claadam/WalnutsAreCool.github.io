@@ -17,11 +17,13 @@ var onePlusBox = $("<pre>")
 onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
 
+function 
+
 function noodle(obj) {
-  return val + 1
+  obj.toString
 }
 
-var onePlusString = onePlus.toString()
+var onePlusString = .toString()
 var onePlusBox = $("<pre>")
 onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
