@@ -26,4 +26,4 @@ setInterval(function() {
   }) 	
 
   index = index + 1
-}, 50)
+}, 100)
