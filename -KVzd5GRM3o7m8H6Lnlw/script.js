@@ -25,9 +25,13 @@ function timesTwo(rand) {
   return rand()*2
 }
 
-var timesTwoString = rand.toString() + " " + timesTwo.toString
+var timesTwoString = rand.toString() + "\n" + timesTwo.toString()
 var timesTwoBox = $("<pre>")
 timesTwoBox.text(timesTwoString)
 $("#thirdbox").append(timesTwoBox)
 
+var timesTwoString = rand.toString() + "\n" + timesTwo.toString()
+var timesTwoBox = $("<pre>")
+timesTwoBox.text(timesTwoString)
+$("#thirdbox").append(timesTwoBox)
 
