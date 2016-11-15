@@ -31,11 +31,11 @@ setInterval(function() {
 
 var english = true
 setInterval(function() {
-  if (shown) {
-    $(".blinking").css({"visibility": "hidden"});
-    shown = false;
+  if (english) {
+    $(".customFX").html(你好！);
+    english = false;
   } else {		
-    $(".blinking").css({"visibility": "visible"});
-    shown = true;
+    $(".customFX").html(Hello!);
+    english = true;
   }
 }, 200)
