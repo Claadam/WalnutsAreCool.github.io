@@ -30,12 +30,12 @@ setInterval(function() {
 
 
 var english = true
-setInterval(function() {
+changeLanguage(function() {
   if (english) {
-    $(".customFX").html(你好！);
+    $(".customFX").html(你好);
     english = false;
   } else {		
-    $(".customFX").html(Hello!);
+    $(".customFX").html(Hello);
     english = true;
   }
 }, 200)
