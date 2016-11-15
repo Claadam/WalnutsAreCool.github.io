@@ -18,16 +18,16 @@ onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
 
 function rand() {
- var raMath.floor(Math.random()*10) 
+ return Math.floor(Math.random()*10)
 }
 
-function noodle(obj) {
-  obj.toString
+function timesTwo(rand()) {
+  return rand()*2
 }
 
-var onePlusString = .toString()
+var onePlusString = onePlusBox.toString()
 var onePlusBox = $("<pre>")
 onePlusBox.text(onePlusString)
-$("#secondbox").append(onePlusBox)
+$("#thirdbox").append(onePlusBox)
 
 
