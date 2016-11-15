@@ -30,8 +30,10 @@ var timesTwoBox = $("<pre>")
 timesTwoBox.text(timesTwoString)
 $("#thirdbox").append(timesTwoBox)
 
-var timesTwoString = rand.toString() + "\n" + timesTwo.toString()
-var timesTwoBox = $("<pre>")
-timesTwoBox.text(timesTwoString)
-$("#thirdbox").append(timesTwoBox)
+
+
+var jQueryString = "find" 
+var jQueryBox = $("<pre>")
+jQuery.text(jQueryString)
+$("#fourthbox").append(jQueryBox)
 
