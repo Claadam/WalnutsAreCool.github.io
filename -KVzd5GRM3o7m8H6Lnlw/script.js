@@ -21,13 +21,13 @@ function rand() {
  return Math.floor(Math.random()*10)
 }
 
-function timesTwo(rand()) {
+function timesTwo(rand) {
   return rand()*2
 }
 
-var onePlusString = onePlusBox.toString()
-var onePlusBox = $("<pre>")
-onePlusBox.text(onePlusString)
-$("#thirdbox").append(onePlusBox)
+var timesTwoString = rand.toString() + timesTwo
+var timesTwoBox = $("<pre>")
+timesTwoBox.text(timesTwoString)
+$("#thirdbox").append(timesTwoBox)
 
 
