@@ -27,3 +27,15 @@ setInterval(function() {
 
   index = index + 1
 }, 500)
+
+
+var english = true
+setInterval(function() {
+  if (shown) {
+    $(".blinking").css({"visibility": "hidden"});
+    shown = false;
+  } else {		
+    $(".blinking").css({"visibility": "visible"});
+    shown = true;
+  }
+}, 200)
