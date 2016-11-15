@@ -18,14 +18,14 @@ onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
 
 function rand() {
- return Math.floor(Math.random()*10)
+ return Math.floor(Math.random()*10) 
 }
 
 function timesTwo(rand) {
   return rand()*2
 }
 
-var timesTwoString = rand.toString() + timesTwo
+var timesTwoString = rand.toString() + " " + timesTwo.toString
 var timesTwoBox = $("<pre>")
 timesTwoBox.text(timesTwoString)
 $("#thirdbox").append(timesTwoBox)
