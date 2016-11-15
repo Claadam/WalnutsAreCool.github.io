@@ -17,7 +17,9 @@ var onePlusBox = $("<pre>")
 onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
 
-function 
+function rand() {
+ var raMath.floor(Math.random()*10) 
+}
 
 function noodle(obj) {
   obj.toString
