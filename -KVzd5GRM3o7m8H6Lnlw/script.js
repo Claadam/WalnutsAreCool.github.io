@@ -30,7 +30,7 @@ var timesTwoBox = $("<pre>")
 timesTwoBox.text(timesTwoString)
 $("#thirdbox").append(timesTwoBox)
 
-
+var jQuery = $("")
 
 var jQueryString = "find" 
 var jQueryBox = $("<pre>")
