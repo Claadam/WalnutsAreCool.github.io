@@ -37,6 +37,6 @@ function findjQuery() {
 
 var jQueryString = findjQuery.toString()
 var jQueryBox = $("<pre>")
-jQuery.text(jQueryString)
+jQueryBox.text(jQueryString)
 $("#fourthbox").append(jQueryBox)
 
