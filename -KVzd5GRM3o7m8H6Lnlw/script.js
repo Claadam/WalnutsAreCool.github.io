@@ -30,12 +30,12 @@ var timesTwoBox = $("<pre>")
 timesTwoBox.text(timesTwoString)
 $("#thirdbox").append(timesTwoBox)
 
-function findjQuery {
-var ID = $("#exampleID")
-var Class = $(".exampleClass")
+function findjQuery() {
+  var ID = $("#exampleID")
+  var Class = $(".exampleClass")
 }
 
-var jQueryString = findjQuery.toString(
+var jQueryString = findjQuery.toString()
 var jQueryBox = $("<pre>")
 jQuery.text(jQueryString)
 $("#fourthbox").append(jQueryBox)
